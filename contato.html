@@ -35,15 +35,15 @@
         <form method="POST" class="formcontato">
     
             <label for="email">E-mail</label>
-            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" id="email"/>
             <label for="nome">Nome</label>
-            <input type="text" placeholder="Digite seu nome" autofocus="true" />
+            <input type="text" placeholder="Digite seu nome" autofocus="true" id="nome"/>
             <label for="text">Telefone</label>
-            <input type="text" placeholder="Digite seu telefone apenas números" />
+            <input type="text" placeholder="Digite seu telefone apenas números" id="telefone"/>
             <label for="text">Texto</label>
             <textarea id="texto" placeholder="Digite aqui a sua mensagem:"></textarea>
             
-            <input type="submit" value="Enviar" class="btn" />
+            <input type="submit" onclick="alerta()" value="Enviar" class="btn" />
         </form>
 
      </div> 
@@ -53,7 +53,7 @@
 
     <div class="paravideo">
     <video autoplay muted loop>
-        <source src="videos/jogatina.mp4" type="video/mp4" height=""  alt="mesa de jogo com pessoas">
+        <source src="videos/jogatina.mp4" type="video/mp4"  alt="mesa de jogo com pessoas">
     </video>    
     </div>
 
@@ -64,6 +64,7 @@
 
 
 
-    
+    <script src="javascript/js.js" defer></script>
+
 </body>
 </html>
