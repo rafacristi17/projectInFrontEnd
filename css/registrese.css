@@ -64,12 +64,9 @@ ul.navegacao li a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
-
 ul.navegacao li a:hover, ul.navegacao li button:hover {
     background-color: rgb(185, 22, 22);
 }
-
 .container-login {
     display: flex;
     flex-direction: column;
